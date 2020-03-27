@@ -9,4 +9,77 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  text-align: center;
+}
+
+.container img {
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 20%;
+  margin: 0;
+}
+
+img {
+  height: 20rem;
+  padding: 0;
+  margin: 0;
+  border: 1rem solid yellow;
+}
+
+h1 {
+  text-align: center;
+}
+
+.info {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 9rem;
+  padding-top: 2rem;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  border: 0rem solid red;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: thistle;
+  border-radius: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+h2 {
+  list-style: none;
+  background-color: slateblue;
+  color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  justify-content: space-evenly;
+  margin: 2rem;
+  display: flex;
+}
+
+.home {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-weight: 300;
+}
+
+h3 {
+  border: .1rem dashed black;
+  margin-left: 25rem;
+  margin-right: 25rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  text-align: center;
 }
